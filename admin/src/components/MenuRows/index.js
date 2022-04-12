@@ -24,6 +24,9 @@ const MenuRows = ( { menus, onClickClone, onClickDelete, onClickEdit } ) => {
             <Typography textColor="neutral800">{ menu.title }</Typography>
           </Td>
           <Td>
+            <Typography textColor="neutral800">{ menu.orderId }</Typography>
+          </Td>
+          <Td>
             <Typography textColor="neutral800">{ menu.slug }</Typography>
           </Td>
           <Td>
