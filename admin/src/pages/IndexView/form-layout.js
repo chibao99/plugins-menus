@@ -38,11 +38,11 @@ const menu = [
   {
     input: {
       intlLabel: {
-        id: getTrad("form.label.order"),
-        defaultMessage: "Order",
+        id: getTrad("form.label.orderId"),
+        defaultMessage: "OrderId",
       },
-      name: "order",
-      type: "interger",
+      name: "orderId",
+      type: "number",
       required: true,
     },
     grid: {

@@ -30,7 +30,7 @@ module.exports = {
       targetField: "title",
       required: true,
     },
-    order: {
+    orderId: {
       type: "integer",
       required: true,
       min: 1,
