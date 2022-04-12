@@ -35,6 +35,7 @@ module.exports = {
       required: true,
       min: 1,
       default: 1,
+      unique: true,
     },
     items: {
       type: "relation",
