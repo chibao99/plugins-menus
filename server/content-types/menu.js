@@ -1,40 +1,45 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  kind: 'collectionType',
-  collectionName: 'menus',
+  kind: "collectionType",
+  collectionName: "menus",
   info: {
-    displayName: 'Menu',
-    singularName: 'menu',
-    pluralName: 'menus',
-    tableName: 'menus',
+    displayName: "Menu",
+    singularName: "menu",
+    pluralName: "menus",
+    tableName: "menus",
   },
   options: {
     draftAndPublish: false,
   },
   pluginOptions: {
-    'content-manager': {
+    "content-manager": {
       visible: false,
     },
-    'content-type-builder': {
+    "content-type-builder": {
       visible: false,
     },
   },
   attributes: {
     title: {
-      type: 'string',
+      type: "string",
       required: true,
     },
     slug: {
-      type: 'uid',
-      targetField: 'title',
+      type: "uid",
+      targetField: "title",
       required: true,
     },
+    order: {
+      type: "integer",
+      required: true,
+      min: 1,
+    },
     items: {
-      type: 'relation',
-      relation: 'oneToMany',
-      target: 'plugin::menus.menu-item',
-      mappedBy: 'root_menu',
-    }
+      type: "relation",
+      relation: "oneToMany",
+      target: "plugin::menus.menu-item",
+      mappedBy: "root_menu",
+    },
   },
 };
