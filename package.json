@@ -1,0 +1,62 @@
+{
+  "name": "strapi-plugin-menus",
+  "version": "0.3.0",
+  "description": "A plugin for Strapi CMS to customize the structure of menus and menu items.",
+  "license": "MIT",
+  "strapi": {
+    "displayName": "Menus",
+    "name": "menus",
+    "description": "A plugin for Strapi CMS to customize the structure of menus and menu items.",
+    "kind": "plugin"
+  },
+  "peerDependencies": {
+    "@strapi/design-system": "^0.0.1-alpha.76",
+    "@strapi/helper-plugin": "^4.1.0",
+    "@strapi/icons": "^0.0.1-alpha.76",
+    "@strapi/strapi": "^4.1.0",
+    "@strapi/utils": "^4.1.0",
+    "formik": "^2.2.9"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "qs": "^6.10.3",
+    "react": "^17.0.2",
+    "react-flip-move": "^3.0.4",
+    "react-intl": "^5.24.6",
+    "react-query": "^3.34.15",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-select": "^5.2.2",
+    "styled-components": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "author": {
+    "name": "Matt Milburn",
+    "url": "https://github.com/mattmilburn"
+  },
+  "maintainers": [
+    {
+      "name": "Matt Milburn",
+      "url": "https://github.com/mattmilburn"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmilburn/strapi-plugin-menus.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "menus",
+    "navigation",
+    "pages"
+  ]
+}
