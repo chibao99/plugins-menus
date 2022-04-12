@@ -21,6 +21,21 @@ const menu = [
   {
     input: {
       intlLabel: {
+        id: getTrad("form.label.orderId"),
+        defaultMessage: "OrderId",
+      },
+      name: "orderId",
+      type: "number",
+      required: true,
+    },
+    grid: {
+      col: 6,
+      s: 12,
+    },
+  },
+  {
+    input: {
+      intlLabel: {
         id: getTrad("form.label.slug"),
         defaultMessage: "Slug",
       },
@@ -83,20 +98,6 @@ const menuItem = [
           },
         },
       })),
-    },
-    grid: {
-      col: 6,
-    },
-  },
-  {
-    input: {
-      intlLabel: {
-        id: getTrad("form.label.orderId"),
-        defaultMessage: "OrderId",
-      },
-      name: "orderId",
-      type: "number",
-      required: true,
     },
     grid: {
       col: 6,

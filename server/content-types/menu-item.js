@@ -31,13 +31,6 @@ module.exports = {
     url: {
       type: "string",
     },
-    orderId: {
-      type: "integer",
-      required: true,
-      min: 1,
-      default: 1,
-      unique: true,
-    },
     target: {
       type: "enumeration",
       enum: ["_blank", "_parent", "_self", "_top"],

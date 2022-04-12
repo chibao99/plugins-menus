@@ -24,7 +24,6 @@ const itemSchema = yup.object().shape({
         )
     )
     .nullable(),
-  orderId: yup.string(translatedErrors.string).nullable().required(),
   target: yup.string(translatedErrors.string).nullable(),
 });
 
