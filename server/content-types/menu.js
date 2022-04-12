@@ -34,6 +34,7 @@ module.exports = {
       type: "integer",
       required: true,
       min: 1,
+      default: 1,
     },
     items: {
       type: "relation",

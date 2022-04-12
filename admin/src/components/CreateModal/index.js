@@ -27,6 +27,7 @@ const CreateModal = ( {
   const initialValues = {
     title: '',
     slug: '',
+    orderId:1
   };
 
   const headerTitle = formatMessage( {
