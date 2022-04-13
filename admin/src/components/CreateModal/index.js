@@ -31,7 +31,7 @@ const CreateModal = ({ fields, invalidateQueries, onClose, schema }) => {
   const initialValues = {
     title: "",
     slug: "",
-    orderId: 1,
+    order: 1,
   };
 
   const headerTitle = formatMessage({

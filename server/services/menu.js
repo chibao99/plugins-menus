@@ -175,7 +175,7 @@ module.exports = ({ strapi }) => ({
   },
 
   async createMenu(data) {
-    const menuData = pick(data, ["title", "slug", "orderId"], {});
+    const menuData = pick(data, ["title", "slug", "order"], {});
     const menuItemsData = get(data, "items", []);
 
     // Create new menu.
@@ -195,7 +195,7 @@ module.exports = ({ strapi }) => ({
   },
 
   async updateMenu(id, data, prevData) {
-    const menuData = pick(data, ["title", "slug", "orderId"], {});
+    const menuData = pick(data, ["title", "slug", "order"], {});
     const menuItemsData = get(data, "items", []);
     const prevItemsData = get(prevData, "items", []);
 
