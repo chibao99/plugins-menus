@@ -21,10 +21,10 @@ const menu = [
   {
     input: {
       intlLabel: {
-        id: getTrad("form.label.orderId"),
-        defaultMessage: "OrderId",
+        id: getTrad("form.label.order"),
+        defaultMessage: "Order",
       },
-      name: "orderId",
+      name: "order",
       type: "number",
       required: true,
     },

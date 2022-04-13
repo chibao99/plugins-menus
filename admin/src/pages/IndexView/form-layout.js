@@ -41,7 +41,7 @@ const menu = [
         id: getTrad("form.label.order"),
         defaultMessage: "Order",
       },
-      name: "orderId",
+      name: "order",
       type: "number",
       required: true,
     },

@@ -30,7 +30,7 @@ const itemSchema = yup.object().shape({
 const schema = yup.object().shape({
   title: yup.string(translatedErrors.string).nullable().required(),
   slug: yup.string(translatedErrors.string).nullable().required(),
-  orderId: yup.string(translatedErrors.string).nullable().required(),
+  order: yup.string(translatedErrors.string).nullable().required(),
   items: yup.array().of(itemSchema),
 });
 
